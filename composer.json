@@ -1,0 +1,25 @@
+{
+    "name": "asianovel/flarum-ext-getactor",
+    "description": "Get current actor.",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AsiaNovel\\GetActor\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Get Actor",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-money-bill",
+                "backgroundColor": "#FFD700",
+                "color": "#85bb65"
+            }
+        }
+    }
+}
